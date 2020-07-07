@@ -113,8 +113,15 @@ table, th, td {
       color: firebrick;
       height:8%;
       width:12%;
+      
   }
+
   button:hover{
       cursor: pointer;
-      background-color:darkcyan;
+      background-color:dimgray;
+      color:wheat;
+  }
+  .form .l1{
+      margin-left: 50px;
+      
   }
