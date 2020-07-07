@@ -3,7 +3,7 @@ body{
 }
 header{
     color:darkkhaki;
-    background-color: darkred;
+   
     padding: 0px 0px 6px 40px;
     height: 60px;
 }
@@ -23,6 +23,12 @@ nav ul li a{
     padding-right: 40px;
     text-decoration: none;
     color:darkkhaki;
+}
+.a1:hover{
+    cursor: help;
+}
+.a2:hover{
+    cursor:wait;
 }
 #break{
     background-color:dimgrey;
@@ -67,4 +73,48 @@ nav ul li a{
 table, th, td {
     border: 1px solid black;
     text-align: center;
+  }
+.sec {
+    text-align: center;
+
+}
+.col {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .cont{
+      float : right;
+      margin-top : -600px;
+      margin-right: 100px;
+  }
+  
+  .form-body .form {
+      
+      margin-left: 30%;
+     margin-top: 2%;
+     margin-right: 30%;
+        background-color:darkkhaki;
+        border-width: 10px;
+  }
+  input[type=text],input[type=email]{
+      width:50%;
+  }
+  button{
+      background-color:white;
+      margin-left: 40%;
+      color: firebrick;
+      height:8%;
+      width:12%;
+  }
+  button:hover{
+      cursor: pointer;
+      background-color:darkcyan;
   }
